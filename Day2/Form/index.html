@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fill up the Form</h1>
+    <form action="">
+    <label for="a">Name:</label>
+    <input id="a" type="text" placeholder="enter your name" required name="username" minlength="5" maxlength="10">
+    <br><br>
+
+    <label for="b">Email:</label>
+    <input id="b" type="email" placeholder="enter you emailId" required name="emailId">
+    <br><br>
+
+    <label for="c">Password:</label>
+    <input id="c" type="password" placeholder="your password please" required name="paswword">
+    <br><br>
+
+    <label for="d">Age:</label>
+    <input id="d" type="number" placeholder="enter yiur age" min="1" max="30" name="age">
+    <br><br>
+
+    <label for="e">Date of birth:</label>
+    <input id="e" type="date" name="dob" min="2000-01-12" max="2026-04-02">
+    <br><br>
+
+    <label for="f">Preffered Time:</label>
+    <input id="f" type="time" name="time">
+    <br><br>
+
+    <label for="g">Upload Files:</label>
+    <input type="file"  id="g" name="file" multiple>
+    <br><br>
+
+    <label for="h">Experience:</label>
+    <input id="h" type="range" name="experience">
+    <br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male">Male
+    <input type="radio" name="gender"value="female">Female
+    <input type="radio" name="gender" value="others">others
+    <br><br>
+
+    <label>Hobbies:</label>
+    <input type="checkbox" name="hobbies" value="playing">Playing
+    <input type="checkbox" name="hobbies" value="dancing">Dancing
+    <input type="checkbox" name="hobbies" value="reading">Reading
+    <br><br>
+
+    <label for="">City:</label>
+    <select name="" id="">
+        <option value="">select</option>
+        <option value="">Patna</option>
+        <option value="">Dumraon</option>
+        <option value="">Buxar</option>
+    </select>
+    <br><br>
+
+    <label for="">Location:</label>
+        <input type="text" list="City">
+        <datalist id="City">
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Buxar">Buxar</option>
+            <option value="Dumraon">Dumraon</option>
+        </datalist>
+        <br><br>
+
+        <input type="text" value="India" readonly>
+        <br><br>
+
+        <label for="">Referal Code:</label>
+        <input type="text" value="R15BU377" disabled>
+        <br><br>
+
+
+        <label for="stream">Stream:</label>
+        <select name="stream" id="stream">
+            <optgroup label="Frontend">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+            </optgroup>
+
+            <optgroup label="Backend">
+                <option value="Java">Java</option>
+                <option value="NodeJs">NodeJs</option>
+            </optgroup>
+        </select>
+        <br><br>
+
+    <button>submit</button>
+    </form>
+</body>
+</html>

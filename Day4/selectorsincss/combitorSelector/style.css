@@ -1,0 +1,20 @@
+/* div h1{
+    color: red;
+    background-color: grey;
+} */
+
+
+/* div>h1{
+    color: red;
+    background-color: grey;
+} */
+
+
+/* div+p{
+    color: red;
+} */
+
+div ~p{
+    color: red;
+    background-color: grey;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        /* it will define color to complete table */
+        table{
+
+            border-collapse: collapse;
+            text-align: center;
+            /* color:green; */
+        }
+        /* specific color for first row(table heading) */
+        th{
+            color:blue;     
+        }
+        /* specific color for table data(rest left data) */
+        td{
+            color:brown;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Roll-No</th>
+            <th>Name</th>
+            <th>Course</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>101</td>
+            <td>Raj</td>
+            <td>HTML</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Aryan</td>
+            <td>Maths</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>shahbaz</td>
+            <td>Python</td>
+        </tr>
+        </tbody>
+
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Student Count: 3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

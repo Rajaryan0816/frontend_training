@@ -1,0 +1,22 @@
+#head{
+    color: red;
+
+}
+.head2{
+    color: blue;
+}
+p{
+    color: brown;
+}
+
+/* h1,h2,p{
+    background-color: gray;
+} */
+
+#head,.head2,p{
+    background-color: yellowgreen;
+}
+
+*{
+    font-family: serif;
+}

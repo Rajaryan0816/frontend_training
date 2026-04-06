@@ -1,0 +1,30 @@
+#margin{
+    background-color: orange;
+    padding: 40px;
+    width: 400px;
+    color: black;
+    border: 2px solid black;
+}
+
+#border{
+    background-color: rgb(211, 121, 121);
+    padding: 40px;
+    width: 300px;
+    color: black;
+    border: 2px solid black;
+}
+
+#padding{
+    background-color: rgb(116, 230, 116);
+    padding: 40px;
+    width: 200px;
+    color: black;
+    border: 2px solid black;
+}
+#box{
+    background-color: rgb(189, 176, 176);
+    padding: 40px;
+    width: 100px;
+    color: black;
+    border: 2px solid black;
+}

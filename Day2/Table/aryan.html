@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        div{
+            height: 150px;
+            width: 500px;
+        }
+
+        #b1{
+            background-color: green;
+        }
+
+        #b2{
+            background-color: yellowgreen;
+        }
+
+        #b3{
+            background-color: orange;
+        }
+
+        #b4{
+            background-color: purple;
+        }
+
+        #main{
+            display: flex;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+<!-- tabIndex feature -->
+    <div id="main">
+        <div tabindex="4" id="b1"> Box1</div>
+        <div tabindex="2" id="b2"> Box2</div>
+        <div tabindex="1" id="b3"> Box3</div>
+        <div tabindex="3" id="b4"> Box4</div>
+
+    </div>
+    <br><br>
+
+    <!-- draggable feature -->
+    <h1 draggable="true">Capgemini Training</h1>
+    <br><br>
+
+    <!-- editable feature  -->
+    <h1 contenteditable="true">Edit this content</h1>
+    
+</body>
+</html>

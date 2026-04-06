@@ -1,0 +1,36 @@
+h1::selection{
+    color: black;
+    background-color: red;
+}
+p::first-line{
+    color: red;
+    background-color: black;
+}
+/* h1::first-letter{
+    font-size: 80px;
+    color: yellow;
+} */
+
+li::marker{
+    content: "💕";
+}
+
+#a::marker{
+    content:"👌";
+}
+
+#b::marker{
+    content: "😍";
+}
+
+#c::marker{
+    content: "😊";
+}
+
+h1::after{
+    content: "❤️";
+}
+h1:before{
+    content: "❤️";
+}
+

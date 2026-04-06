@@ -1,0 +1,15 @@
+a:link{
+    color: orange;
+    background-color: grey;
+}
+a:visited
+{
+    color: green;
+    background-color: bisque;
+}
+a:active{
+    color: yellow;
+    background-color: black;
+
+}
+
