@@ -1,0 +1,19 @@
+.container{
+    border: 2px solid grey;
+    display: flex;
+}
+
+.box{
+    border: 2px solid red;
+    height: 60px;
+}
+
+.box1{
+    flex-grow: 1;
+}
+.box2{
+    flex-grow: 2;
+}
+.box{
+    flex-grow: 3;
+}

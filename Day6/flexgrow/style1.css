@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    border: 2px solid grey;
+    display: flex;
+    padding: 7px;
+    background-color: black;
+    color: red;
+}
+
+.logo{
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.menu{
+    flex-grow: 1;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    padding: 6px;
+    color: red;
+}
+
+.login{
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: grey;
+    color: white;
+}
+
+
+
