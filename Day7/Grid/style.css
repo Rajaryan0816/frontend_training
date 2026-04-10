@@ -1,0 +1,12 @@
+.box{
+    border: 2px solid red;
+}
+
+main{
+    height: 60vh;
+    width: 70%;
+    border: 2px solid grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
